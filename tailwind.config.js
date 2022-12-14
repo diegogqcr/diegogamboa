@@ -4,7 +4,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+        spinSlow: 'spin 3s linear infinite',
+      }
+    },
   },
   plugins: [],
 };

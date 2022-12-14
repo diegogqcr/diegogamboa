@@ -25,7 +25,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -34,17 +34,17 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
                 <FaGithub />
               </div>
             </a>
             <Link href='/#contact'>
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
                 <AiOutlineMail />
               </div>
             </Link>
             <Link href='/resume'>
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
                 <BsFillPersonLinesFill />
               </div>
             </Link>
