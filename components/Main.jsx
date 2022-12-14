@@ -7,13 +7,13 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240px] min-h-screen w-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='text-sm tracking-widest text-gray-600 uppercase'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Diego Gamboa</span>
+            Hi, I&#39;m <span className='text-[#0891b2]'> Diego</span>
           </h1>
           <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
@@ -25,7 +25,7 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
                 <FaLinkedinIn />
               </div>
             </a>
@@ -34,17 +34,17 @@ const Main = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
                 <FaGithub />
               </div>
             </a>
             <Link href='/#contact'>
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
                 <AiOutlineMail />
               </div>
             </Link>
             <Link href='/resume'>
-              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110'>
+              <div className='p-6 duration-300 ease-in rounded-full shadow-lg cursor-pointer animate-bounce shadow-gray-400 hover:scale-110'>
                 <BsFillPersonLinesFill />
               </div>
             </Link>

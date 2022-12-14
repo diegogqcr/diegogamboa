@@ -1,0 +1,36 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .title{
+    width: 53ch;
+    color: black;
+    font-family: monospace;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid orange;
+    animation: flashing-border 0.85s step-end infinite,
+    printed-text 3s steps(27);
+  }
+  
+  @keyframes flashing-border{
+    0%{
+        border-color: orange;
+    }
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: orange;
+    }
+  }
+  
+  @keyframes printed-text{
+    from{
+        width: 0;
+    }
+  }
+  
